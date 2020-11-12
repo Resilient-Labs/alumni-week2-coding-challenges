@@ -1,0 +1,16 @@
+function squareSum(numbers) {
+return numbers.map(multiply).reduce(reducer, 0)
+}
+
+function multiply(num) {
+return Map.pow(num, 2)
+}
+
+function reducer(num1, num2){
+return num1 + num2
+}
+
+Test.assertEquals(squareSum([1,2]), 5)
+Test.assertEquals(squareSum([0, 3, 4, 5]), 50)
+
+Output 50, 5
