@@ -1,0 +1,21 @@
+//Given two arrays of strings, return the number of times each string of the second array appears in the first array.
+
+Example
+array1 = ['abc', 'abc', 'xyz', 'cde', 'uvw']
+array2 = ['abc', 'cde', 'uap']
+
+//My code
+
+function solve(a,b){
+  
+  let result = [];
+  
+  for (let i = 0; i < b.length; i++) {
+    result[i]=0;
+    for (let k = 0; k < a.length; k++) {
+      if (a[k] == b[i])
+        result[i] ++;
+    }
+  }
+  return result;
+}
