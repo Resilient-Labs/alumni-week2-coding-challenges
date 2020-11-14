@@ -21,9 +21,9 @@ const getSum = (num1, num2) => {
     return result
 }
 
-console.log(getSum(1, 0)) //1
-console.log(getSum(1, 2)) //3
-console.log(getSum(0, 1)) //1
-console.log(getSum(1, 1)) //1   
-console.log(getSum(-1, 0)) //-1
-console.log(getSum(-1, 2)) //2  
+console.log(getSum(1, 0))//1
+console.log(getSum(1, 2))//3
+console.log(getSum(0, 1))//1
+console.log(getSum(1, 1))//1   
+console.log(getSum(-1, 0))//-1
+console.log(getSum(-1, 2))//2  
